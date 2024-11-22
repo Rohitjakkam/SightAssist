@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAI
 
 print(pytesseract)
 # Initialize Google Generative AI with API Key
-GEMINI_API_KEY = "AIzaSyA2vJPfQpe1rqoEy0iv0N_w0tehujAVVkY"  # Replace with your valid API key
+GEMINI_API_KEY = ""  # Replace with your valid API key
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
 llm = GoogleGenerativeAI(model="gemini-1.5-pro", api_key=GEMINI_API_KEY)
